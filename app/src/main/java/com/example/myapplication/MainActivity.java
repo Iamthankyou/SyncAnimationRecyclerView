@@ -2,34 +2,15 @@ package com.example.myapplication;
 
 import android.animation.ValueAnimator;
 import android.os.Bundle;
-
-import com.google.android.material.snackbar.Snackbar;
-
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.os.Handler;
 import android.util.Log;
 import android.view.View;
-
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
-import com.example.myapplication.databinding.ActivityMainBinding;
-
-import android.view.Menu;
-import android.view.MenuItem;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
-
     private LottieAdapter adapter;
     private ValueAnimator animator;
     private float globalProgress = 0f;

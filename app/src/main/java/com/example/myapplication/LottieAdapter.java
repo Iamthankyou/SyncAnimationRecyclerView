@@ -1,20 +1,13 @@
 package com.example.myapplication;
 
-import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.airbnb.lottie.LottieAnimationView;
 import com.airbnb.lottie.LottieDrawable;
-
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class LottieAdapter extends RecyclerView.Adapter<LottieAdapter.LottieViewHolder> {
 
